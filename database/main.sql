@@ -1,0 +1,20 @@
+CREATE TABLE IF NOT EXISTS doctors(
+id INTEGER PRIMARY KEY AUTOINCREMENT,
+first_name TEXT NOT NULL,
+second_name TEXT NOT NULL,
+);
+
+CREATE TABLE IF NOT EXISTS patients(
+id INTERGER PRIMARY KEY AUTOINCREMENT,
+first_name TEXT NOT NULL,
+second_name TEXT NOT NULL,
+dicease TEXT NOT NULL
+
+
+);
+
+CREATE TABLE IF NOT EXISTS doctors_patients(
+doctor_id INTEGER,
+patient_id INTEGER,
+FOREIGN
+);
