@@ -1,0 +1,1 @@
+INSERT OR IGNORE INTO doctors ("first_name", "second_name", "specialization")
